@@ -1,0 +1,7 @@
+{
+    "/api/*": {
+        "target": "https://l960bvgf0i.execute-api.us-east-1.amazonaws.com/dev/process",
+        "secure": false,
+        "logLevel": "debug"
+    }
+}
