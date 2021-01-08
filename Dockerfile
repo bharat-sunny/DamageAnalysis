@@ -4,7 +4,8 @@ FROM node:12.0-alpine AS builder
 COPY . ./DamageAnalysis
 WORKDIR /DamageAnalysis
 
-
+RUN npm i
+RUN  $(npm bin)/ng build --prod
 
 
 ### STAGE 2: Run ###
