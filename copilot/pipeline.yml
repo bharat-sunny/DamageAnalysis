@@ -1,7 +1,7 @@
 # This YAML file defines the relationship and deployment ordering of your environments.
 
 # The name of the pipeline
-name: pipeline-ecsui-bharatsunny-DamageAnalysis
+name: pipeline-ecsui-bharatsunny-DamageAnalysisui
 
 # The version of the schema used in this template
 version: 1
@@ -15,7 +15,7 @@ source:
   # has the following properties: repository, branch.
   properties:
     access_token_secret: github-token-ecsui-DamageAnalysis
-    branch: ecsui
+    branch: main
     repository: https://github.com/bharatsunny/DamageAnalysis
 
 # The deployment section defines the order the pipeline will deploy
